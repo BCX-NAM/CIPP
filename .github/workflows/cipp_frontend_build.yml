@@ -49,7 +49,7 @@ jobs:
       - name: Azure Blob Upload
         uses: LanceMcCarthy/Action-AzureBlobUpload@v3.3.1
         with:
-          connection_string: ${{ secrets.AZURE_CONNECTION_STRING }}
+          connection_string: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_ICY_FOREST_03CBC6203 }}
           container_name: cipp
           source_folder: build/
           destination_folder: /
